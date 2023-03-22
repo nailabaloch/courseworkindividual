@@ -41,7 +41,7 @@
             <section id="subject_page" class="display-flex-col width-height" v-if="can_showSubjects"> 
                 
                 <div id="container" class="display-flex-row width-height">
-                    <div id="filters" class="display-flex-col">
+                    <div id="filters" class="display-flex-col"> 
                         <h3>Sort By</h3>
                         <div id="sort_by">
                             <div class="radio_container">
@@ -54,7 +54,7 @@
                             </div>
                             <div class="radio_container">
                                 <input name="sort_radio" type="radio" v-on:click="changeCriteria('price')">
-                                <label for="sort_radio">Price</label>
+                                <label for="sort_radio">Price</label> 
                             </div>
                             <div class="radio_container">
                                 <input name="sort_radio" type="radio" v-on:click="changeCriteria('availability')">

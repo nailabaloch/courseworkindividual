@@ -15,7 +15,8 @@
 
 <body>
     <div id="app" class="display-flex-col width-height">
-
+        
+<!------------ HEADER section---------------- -->
         <header class="display-flex-row">
             <img src="img/logo_png___weeekly___after_school_logo_png_by_kloorer_deh54s1-fullview.png" style="width: 200px; margin-left: -400px;"><h1 style="margin-left: -400px;">{{sitename}}</h1>
             <div v-if="can_showSubjects">
@@ -36,11 +37,12 @@
                 </button>  
             </div>
         </header> 
+<!--------------- Header section End----------------- -->
 
         <main class="display-flex-col width-height" style="margin-top: 100px;" >
             <section id="subject_page" class="display-flex-col width-height" v-if="can_showSubjects"> 
                 
-                <div id="container" class="display-flex-row width-height">
+                <div  class="display-flex-row width-height">
                     <div id="filters" class="display-flex-col"> 
                         <h3>Sort By</h3>
                         <div id="sort_by">  
